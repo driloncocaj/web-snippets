@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-color: aquamarine; */
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  background-color: transparent;
+  font-weight: 700;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:active {
+  padding: 10px;
+}
+
+h2 {
+  font-weight: 900;
+  color: white;
+  /* border: 2px solid red; */
+  margin-top: 5vh;
+}
