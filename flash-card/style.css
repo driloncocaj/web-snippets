@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  margin: 1%;
+  width: 25%;
+  border: 0.5px solid white;
+  border-radius: 10%;
+  transform: rotate(5deg);
+}
+/* .card .card:hover {
+  transform: rotate(0deg);
+} */
+.card img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.card .text {
+  background-color: white;
+  height: 65%;
+}
+.card .profile {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  height: 35%;
+}
