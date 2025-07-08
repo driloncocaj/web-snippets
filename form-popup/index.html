@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dynamic Form Popup</title>
+  </head>
+  <body>
+    <header>
+      <div class="content-container">
+        <h1>Welcome To The Real World</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic porro
+          provident dolorum sed? Modi nemo sequi labore id deleniti ut quae
+          alias itaque error sunt rem ad, asperiores nisi voluptatum.
+        </p>
+        <button class="cta-btn" id="open">Sign Up</button>
+      </div>
+    </header>
+
+    <section class="modal-container" id="modal">
+      <section class="modal">
+        <button class="close-btn" id="close">X</button>
+        <div class="modal-content">
+          <h1>Sign Up</h1>
+          <form action="" class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+
+            <div>
+              <label for="password2">Confirm Your Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" id="" class="submit-btn" />
+          </form>
+        </div>
+      </section>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
