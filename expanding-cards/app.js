@@ -1,14 +1,14 @@
-// const slides = document.querySelectorAll(".slide");
+const slides = document.querySelectorAll(".slide");
 
-// slides.forEach((slide) => {
-//   slide.addEventListener("click", () => {
-//     removeCurrentActives();
-//     slide.classList.add("active");
-//   });
-// });
+slides.forEach((slide) => {
+  slide.addEventListener("click", () => {
+    removeCurrentActives();
+    slide.classList.add("active");
+  });
+});
 
-// function removeCurrentActives() {
-//   slides.forEach((slide) => {
-//     slide.classList.remove("active");
-//   });
-// }
+function removeCurrentActives() {
+  slides.forEach((slide) => {
+    slide.classList.remove("active");
+  });
+}
