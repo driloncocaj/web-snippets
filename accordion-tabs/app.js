@@ -1,15 +1,17 @@
-// let list = document.querySelector(".list");
-let items = document.querySelectorAll("li");
-// let paragraph = document.querySelector("p");
+const items = document.querySelectorAll("li");
 
 items.forEach((item) => {
   item.addEventListener("click", function () {
+    const p = this.querySelector(".content");
+    const isOpen = p.classList.contains("show");
+
     items.forEach((i) => {
-      const p = i.querySelector(".content");
-      if (p) p.classList.remove("show");
+      const para = i.querySelector(".content");
+      if (para) para.classList.remove("show");
     });
 
-    const p = this.querySelector(".content");
-    if (p) p.classList.add("show");
+    if (!isOpen && p) {
+      p.classList.add("show");
+    }
   });
 });
