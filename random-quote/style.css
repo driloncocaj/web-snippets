@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%); */
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color: whitesmoke;
+  -webkit-text-stroke: 0.3px black;
+  width: 80%;
+}
+
+.quote {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.get-quote {
+  height: 70px;
+  width: 70px;
+  border-radius: 25%;
+  border: none;
+  background: #53a3dc;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+button:hover {
+  box-shadow: 0rem 0rem 10px 10px rgba(45, 106, 198, 0.589);
+}
