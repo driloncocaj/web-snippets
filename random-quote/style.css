@@ -18,15 +18,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 1px solid red; */
   padding: 1rem;
   font-size: 2.5rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: oblique;
-  color: whitesmoke;
+  color: white;
   -webkit-text-stroke: 0.3px black;
   width: 80%;
+  transition: opacity 2s ease;
 }
 
 .quote {
@@ -53,4 +53,11 @@ body {
 
 button:hover {
   box-shadow: 0rem 0rem 10px 10px rgba(45, 106, 198, 0.589);
+}
+
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
 }
