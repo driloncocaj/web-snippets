@@ -12,8 +12,19 @@ body {
   align-items: center;
 }
 
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  border-radius: 6px;
+  padding: 0 8px;
+  max-width: 100%;
+  background-color: cornflowerblue;
+}
+
 input {
-  width: 50%;
+  flex: 1;
+  padding: 10px;
   background-color: cornflowerblue;
   border: 0;
   outline: 0;
@@ -21,7 +32,7 @@ input {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   /* border: 2px solid red; */
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 10px;
 }
 
@@ -31,13 +42,19 @@ input::placeholder {
   font-size: 1.8rem;
 }
 
-.input-wrapper::after {
-  content: "X";
-  font-size: 5rem;
-  color: white;
+.result {
+  font-size: 1.5rem;
+  color: green;
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-#result {
+.result.visible {
+  opacity: 1;
+}
+
+.result.invalid {
   color: red;
-  font-size: 5rem;
+  content: "X";
 }
