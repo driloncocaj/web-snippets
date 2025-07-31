@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+.box {
+  width: 10%;
+  aspect-ratio: 1 /1;
+  border-radius: 5px;
+  border: 2px solid honeydew;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-text-stroke: 0.5px black;
+}
+
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#purple {
+  background-color: purple;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
