@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-container {
+  border: 1px solid red;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-container h2 {
+  margin-bottom: 1rem;
+}
+
+.file-container button {
+  /* font-size: 1.2rem; */
+  font-weight: 700;
+  padding: 0.8rem;
+  width: 50%;
+  outline: none;
+  cursor: pointer;
+}
