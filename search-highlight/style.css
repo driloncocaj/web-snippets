@@ -13,10 +13,6 @@ body {
   align-items: center;
 }
 
-.wrapper {
-  /* border: 1px solid green; */
-}
-
 .options {
   display: flex;
   flex-direction: row;
