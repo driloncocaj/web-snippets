@@ -9,6 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease;
 }
 
 .button-wrapper {
@@ -22,7 +26,7 @@ body {
 button {
   border: none;
   outline: none;
-  background-color: white;
+  background-color: transparent;
   margin: 1%;
 }
 
